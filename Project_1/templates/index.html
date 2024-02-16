@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resale Price Prediction</title>
+</head>
+<body>
+    <h1>Enter Input for Prediction</h1>
+    <form method="POST" action="/predict">
+        <label for="engine_capacity">Engine Capacity:</label>
+        <input type="text" name="engine_capacity" required><br>
+
+        <label for="insurance">Insurance:</label>
+        <input type="text" name="insurance" required><br>
+
+        <label for="transmission_type">Transmission:</label>
+        <input type="text" name="transmission_type" required><br>
+
+        <label for="kms_driven">Kilometers:</label>
+        <input type="text" name="kms_driven" required><br>
+
+        <label for="owner_type">Owner Type:</label>
+        <input type="text" name="owner_type" required><br>
+
+        <label for="fuel_type">Fuel Type:</label>
+        <input type="text" name="fuel_type" required><br>
+
+        <label for="seats">No. of seats:</label>
+        <input type="text" name="seats" required><br>
+
+        <label for="mileage">Mileage:</label>
+        <input type="text" name="mileage" required><br>
+
+        <label for="body_type">Type:</label>
+        <input type="text" name="body_type" required><br>
+
+        <label for="city">Location:</label>
+        <input type="text" name="city" required><br>
+
+        <label for="car_company">Brand:</label>
+        <input type="text" name="car_company" required> <br>
+
+        <label for="age">Age:</label>
+        <input type="text" name="age" required><br>
+
+        <label for="model">Model:</label>
+        <input type="text" name="model" required><br>
+
+
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
