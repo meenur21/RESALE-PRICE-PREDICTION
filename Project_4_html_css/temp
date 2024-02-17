@@ -1,0 +1,155 @@
+['Maruti' 'Tata' 'Hyundai' 'Honda' 'Toyota' 'Kia' 'Ford' 'Mitsubishi'
+ 'Mahindra' 'Audi' 'Volkswagen' 'Skoda' 'MG' 'Renault' 'Nissan'
+ 'Chevrolet' 'Datsun' 'Jeep' 'BMW' 'Mercedes-Benz' 'Fiat' 'Land' 'Jaguar'
+ 'Volvo' 'Isuzu' 'Mini' 'Citroen' 'Porsche' 'Lexus' 'Force' 'OpelCorsa'
+ 'Daewoo' 'Bentley']
+
+
+
+
+
+
+
+<option value="Maruti Baleno">Maruti Baleno</option><!-- /.option-->
+<option value="Tata Hexa">Tata Hexa</option><!-- /.option-->
+<option value="Maruti Swift">Maruti Swift</option><!-- /.option-->
+<option value="Hyundai i10">Hyundai i10</option><!-- /.option-->
+<option value="Hyundai i20">Hyundai i20</option><!-- /.option-->
+<option value="Tata Tiago">Tata Tiago</option><!-- /.option-->
+<option value="Maruti Eeco">Maruti Eeco</option><!-- /.option-->
+<option value="Honda Amaze">Honda Amaze</option><!-- /.option-->
+<option value="Hyundai Xcent">Hyundai Xcent</option><!-- /.option-->
+<option value="Maruti Ciaz">Maruti Ciaz</option><!-- /.option-->
+<option value="Hyundai Venue">Hyundai Venue</option><!-- /.option-->
+<option value="Maruti Alto">Maruti Alto</option><!-- /.option-->
+<option value="Maruti Wagon">Maruti Wagon</option><!-- /.option-->
+<option value="Toyota Etios">Toyota Etios</option><!-- /.option-->
+<option value="Toyota Corolla">Toyota Corolla</option><!-- /.option-->
+<option value="Kia Sonet">Kia Sonet</option><!-- /.option-->
+<option value="Ford Ecosport">Ford Ecosport</option><!-- /.option-->
+<option value="Mitsubishi Outlander">Mitsubishi Outlander</option><!-- /.option-->
+<option value="Hyundai Grand">Hyundai Grand</option><!-- /.option-->
+<option value="Mahindra XUV500">Mahindra XUV500</option><!-- /.option-->
+<option value="Tata New">Tata New</option><!-- /.option-->
+<option value="Maruti Vitara">Maruti Vitara</option><!-- /.option-->
+<option value="Maruti Ertiga">Maruti Ertiga</option><!-- /.option-->
+<option value="Maruti Celerio">Maruti Celerio</option><!-- /.option-->
+<option value="Hyundai Creta">Hyundai Creta</option><!-- /.option-->
+<option value="Toyota Innova">Toyota Innova</option><!-- /.option-->
+<option value="Tata Manza">Tata Manza</option><!-- /.option-->
+<option value="Audi A4">Audi A4</option><!-- /.option-->
+<option value="Volkswagen Polo">Volkswagen Polo</option><!-- /.option-->
+<option value="Hyundai Santro">Hyundai Santro</option><!-- /.option-->
+<option value="Skoda Rapid">Skoda Rapid</option><!-- /.option-->
+<option value="Ford Figo">Ford Figo</option><!-- /.option-->
+<option value="MG Hector">MG Hector</option><!-- /.option-->
+<option value="Hyundai EON">Hyundai EON</option><!-- /.option-->
+<option value="Tata Punch">Tata Punch</option><!-- /.option-->
+<option value="Renault Duster">Renault Duster</option><!-- /.option-->
+<option value="Kia Seltos">Kia Seltos</option><!-- /.option-->
+<option value="Nissan Terrano">Nissan Terrano</option><!-- /.option-->
+<option value="Chevrolet Spark">Chevrolet Spark</option><!-- /.option-->
+<option value="Honda Jazz">Honda Jazz</option><!-- /.option-->
+<option value="Honda City">Honda City</option><!-- /.option-->
+<option value="Renault KWID">Renault KWID</option><!-- /.option-->
+<option value="Maruti SX4">Maruti SX4</option><!-- /.option-->
+<option value="Mahindra Scorpio">Mahindra Scorpio</option><!-- /.option-->
+<option value="Tata Nexon">Tata Nexon</option><!-- /.option-->
+<option value="Tata Indica">Tata Indica</option><!-- /.option-->
+<option value="Datsun GO">Datsun GO</option><!-- /.option-->
+<option value="Chevrolet Beat">Chevrolet Beat</option><!-- /.option-->
+<option value="Ford Aspire">Ford Aspire</option><!-- /.option-->
+<option value="Mahindra XUV300">Mahindra XUV300</option><!-- /.option-->
+<option value="Honda Brio">Honda Brio</option><!-- /.option-->
+<option value="Renault Fluence">Renault Fluence</option><!-- /.option-->
+<option value="Toyota Yaris">Toyota Yaris</option><!-- /.option-->
+<option value="Renault Triber">Renault Triber</option><!-- /.option-->
+<option value="Mahindra Bolero">Mahindra Bolero</option><!-- /.option-->
+<option value="Ford Fiesta">Ford Fiesta</option><!-- /.option-->
+<option value="Jeep Compass">Jeep Compass</option><!-- /.option-->
+<option value="Toyota Glanza">Toyota Glanza</option><!-- /.option-->
+<option value="Mahindra KUV">Mahindra KUV</option><!-- /.option-->
+<option value="Nissan Magnite">Nissan Magnite</option><!-- /.option-->
+<option value="MG Astor">MG Astor</option><!-- /.option-->
+<option value="Audi Q3">Audi Q3</option><!-- /.option-->
+<option value="Honda CR-V">Honda CR-V</option><!-- /.option-->
+<option value="Skoda Fabia">Skoda Fabia</option><!-- /.option-->
+<option value="Mahindra Thar">Mahindra Thar</option><!-- /.option-->
+<option value="Maruti A-Star">Maruti A-Star</option><!-- /.option-->
+<option value="Hyundai Verna">Hyundai Verna</option><!-- /.option-->
+<option value="Toyota Urban">Toyota Urban</option><!-- /.option-->
+<option value="BMW 3">BMW 3</option><!-- /.option-->
+<option value="Chevrolet Tavera">Chevrolet Tavera</option><!-- /.option-->
+<option value="Tata Zest">Tata Zest</option><!-- /.option-->
+<option value="Maruti Ritz">Maruti Ritz</option><!-- /.option-->
+<option value="BMW 6">BMW 6</option><!-- /.option-->
+<option value="Audi A6">Audi A6</option><!-- /.option-->
+<option value="Mercedes-Benz E-Class">Mercedes-Benz E-Class</option><!-- /.option-->
+<option value="Audi Q7">Audi Q7</option><!-- /.option-->
+<option value="Mercedes-Benz C-Class">Mercedes-Benz C-Class</option><!-- /.option-->
+<option value="Audi A3">Audi A3</option><!-- /.option-->
+<option value="Audi RS5">Audi RS5</option><!-- /.option-->
+<option value="Audi Q5">Audi Q5</option><!-- /.option-->
+<option value="Tata Tigor">Tata Tigor</option><!-- /.option-->
+<option value="Honda WR-V">Honda WR-V</option><!-- /.option-->
+<option value="Renault Kiger">Renault Kiger</option><!-- /.option-->
+<option value="Mercedes-Benz CLA">Mercedes-Benz CLA</option><!-- /.option-->
+<option value="Honda Civic">Honda Civic</option><!-- /.option-->
+<option value="Tata Nano">Tata Nano</option><!-- /.option-->
+<option value="Maruti Ignis">Maruti Ign
+
+
+
+array(['Hatchback', 'MUV', 'Sedan', 'Minivans', 'SUV', 'Toyota', 'Coupe',
+       'Chevrolet', 'Mercedes-Benz', 'Audi', 'Maruti', 'Pickup', 'Tata',
+       'Mahindra', 'Volvo', 'Jaguar', 'BMW', 'Cars', 'Datsun', 'Hyundai',
+       'Honda', 'Convertibles', 'Wagon', 'Skoda', 'Isuzu'], dtype=object)
+
+
+
+
+
+
+       <select class="form-control" id="yearSelect" name ="year">
+
+<option value="default">year</option><!-- /.option-->
+
+<option value="2000">2000</option><!-- /.option-->
+<option value="2001">2001</option><!-- /.option-->
+<option value="2002">2002</option><!-- /.option-->
+<option value="2003">2003</option><!-- /.option-->
+<option value="2004">2004</option><!-- /.option-->
+<option value="2005">2005</option><!-- /.option-->
+<option value="2006">2006</option><!-- /.option-->
+<option value="2007">2007</option><!-- /.option-->
+<option value="2008">2008</option><!-- /.option-->
+<option value="2009">2009</option><!-- /.option-->
+<option value="2010">2010</option><!-- /.option-->
+<option value="2011">2011</option><!-- /.option-->
+<option value="2012">2012</option><!-- /.option-->
+<option value="2013">2013</option><!-- /.option-->
+<option value="2014">2014</option><!-- /.option-->
+<option value="2015">2015</option><!-- /.option-->
+<option value="2016">2016</option><!-- /.option-->
+<option value="2017">2017</option><!-- /.option-->
+<option value="2018">2018</option><!-- /.option-->
+<option value="2019">2019</option><!-- /.option-->
+<option value="2020">2020</option><!-- /.option-->
+<option value="2021">2021</option><!-- /.option-->
+<option value="2022">2022</option><!-- /.option-->
+<option value="2023">2023</option><!-- /.option-->
+
+
+</select><!-- /.select-->
+</div><!-- /.model-select-icon -->
+<input type="hidden" id="yearInput" name="input_year"> <!-- Hidden input field to store calculated year -->
+
+<script>
+document.getElementById('yearSelect').addEventListener('change', function() {
+     var selectedYear = parseInt(this.value);
+     if (!isNaN(selectedYear)) {
+            var inputYear = 2023 - selectedYear;
+            document.getElementById('yearInput').value = inputYear;
+     }
+});
+</script> 
