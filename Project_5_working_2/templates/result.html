@@ -1,0 +1,57 @@
+<!-- result.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result</title>
+    <style>
+        .container {
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: #333;
+            animation: pulse 2s infinite;
+        }
+
+        p {
+            font-size: 1.5rem;
+            color: green;
+            animation: bounce 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Congratulations!</h1>
+        <p>Your Predicted Resale Price:</p>
+        <p>₹{{ predicted_price }}</p>
+        <span>&#x1F389;</span>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,288 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+    <head>
+       
+
+    </head>
+	
+	<body>
+		<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+	
+		<!--welcome-hero start -->
+		<section id="home" class="welcome-hero">
+
+			<!-- top-area Start -->
+			<div class="top-area">
+				<div class="header-area">
+					<!-- Start Navigation -->
+				    <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+
+				        <div class="container">
+
+				            <!-- Start Header Navigation -->
+				            <div class="navbar-header">
+				                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+				                    <i class="fa fa-bars"></i>
+				                </button>
+				                <a class="navbar-brand" href="index.html">carvilla<span></span></a>
+
+				            </div><!--/.navbar-header-->
+				            <!-- End Header Navigation -->
+
+				            <!-- Collect the nav links, forms, and other content for toggling -->
+				            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+				                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+				                    <li class=" scroll active"><a href="#home">home</a></li>
+				                    <li class="scroll"><a href="#service">Get an Estimate</a></li>
+				                    <li class="scroll"><a href="#featured-cars">featured cars</a></li>
+				                    <li class="scroll"><a href="#new-cars">new cars</a></li>
+				                    <li class="scroll"><a href="#brand">brands</a></li>
+				                    <li class="scroll"><a href="#contact">contact</a></li>
+				                </ul><!--/.nav -->
+				            </div><!-- /.navbar-collapse -->
+				        </div><!--/.container-->
+				    </nav><!--/nav-->
+				    <!-- End Navigation -->
+				</div><!--/.header-area-->
+			    <div class="clearfix"></div>
+
+			</div><!-- /.top-area-->
+			<!-- top-area End -->
+
+			<div class="container">
+				<div class="welcome-hero-txt">
+					<h2>Unlock the Value: Find out the estimated worth of your Car</h2>
+					<p>
+						Simply input your car's details, and we'll provide you with an accurate assessment, helping you make informed decisions about selling or trading in your car. 
+					</p>
+					<button class="welcome-btn" onclick="window.location.href='#'">contact us</button>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="model-search-content">
+						  <form method="POST" action="/predict"> 
+	
+							<div class="row">
+								<div class="col-md-offset-1 col-md-2 col-sm-12">
+									<div class="single-model-search">
+									    <h2>Age</h2>
+									    <!-- <div class="model-select-icon"> -->
+										
+
+										    <input type="text" id="age" name="age" class="form-control" placeholder="Enter age" />
+
+										
+									<!-- </div>/.model-select-icon  -->
+								    </div>
+									<div class="single-model-search">
+										<h2>body style</h2>
+										<div class="model-select-icon">
+											<select id="body_type" class="form-control" name="body_type">
+
+											  	<option value="MUV">MUV</option><!-- /.option-->
+
+											  	<option value="sedan">Sedan</option><!-- /.option-->
+
+											  	<option value="SUV">SUV</option><!-- /.option-->
+											  	<option value="roadster">Hatchback</option><!-- /.option-->
+												<option value="Minivans">Minivan</option><!-- /.option-->
+											  	
+
+											</select><!-- /.select-->
+										</div><!-- /.model-select-icon -->
+									</div>
+								</div>
+								<div class="col-md-offset-1 col-md-2 col-sm-12">
+									<div class="single-model-search">
+										<h2>select make</h2>
+										<div class="model-select-icon">
+											<select id="car_company" class="form-control" name="car_company">
+
+											  	<option value="default">make</option><!-- /.option-->
+
+												<option value="Toyota">Toyota</option><!-- /.option-->
+												<option value="Maruti">Maruti</option><!-- /.option-->
+												
+												
+
+											</select><!-- /.select-->
+										</div><!-- /.model-select-icon -->
+									</div>
+									<div class="single-model-search">
+										<h2>Owner Type</h2>
+										<div class="model-select-icon">
+											<select id="owner_type" class="form-control" name="owner_type">
+
+											  	<option value="1">First</option><!-- /.option-->
+
+											  	<option value="2">Second</option><!-- /.option-->
+
+											  	<option value="3">Third</option><!-- /.option-->
+											  	<option value="4">Fourth</option><!-- /.option-->
+
+											</select><!-- /.select-->
+										</div><!-- /.model-select-icon -->
+									</div>
+										<div class="single-model-search">
+											<h2>Insurance</h2>
+											<div class="model-select-icon">
+												<select id="insurance" class="form-control" name="insurance">
+	
+													  <option value="Third Party">Third Party</option><!-- /.option-->
+	
+													  <option value="Comprehensive">Comprehensive</option><!-- /.option-->
+	
+													  <option value="Zero dep">Zero Depriciation</option><!-- /.option-->
+													  <option value="Not Available">Not Available</option><!-- /.option-->
+	
+												</select><!-- /.select-->
+											</div><!-- /.model-select-icon -->
+										</div>
+											<div class="single-model-search">
+												<h2>Transmission Type</h2>
+												<div class="model-select-icon">
+													<select id="transmission_type" class="form-control" name="transmission_type">
+		
+														  <option value="Automatic">Automatic</option><!-- /.option-->
+		
+														  <option value="Manual">Manual</option><!-- /.option-->
+		
+													</select><!-- /.select-->
+												</div><!-- /.model-select-icon -->
+											</div>
+												<div class="single-model-search">
+													<h2>Fuel Type</h2>
+													<div class="model-select-icon">
+														<select id="fuel_type" class="form-control" name="fuel_type">
+			
+															  <option value="Petrol">Petrol</option><!-- /.option-->
+			
+															  <option value="Diesel">Diesel</option><!-- /.option-->
+			
+															  <option value="Electric">Electric</option><!-- /.option-->
+															  <option value="LPG">LPG</option><!-- /.option-->
+															  <option value="CNG">CNG</option><!-- /.option-->
+			
+														</select><!-- /.select-->
+													</div><!-- /.model-select-icon -->	
+												</div>
+
+
+												<div class="single-model-search">
+													<h2>City</h2>
+													<div class="model-select-icon">
+														<select id="city" class="form-control" name="city">
+			
+															<option value="Agra">Agra</option><!-- /.option-->
+															<option value="Gurgaon">Gurgaon</option><!-- /.option-->
+															
+															
+			
+														</select><!-- /.select-->
+													</div><!-- /.model-select-icon -->	
+												</div>
+								</div>
+								<div class="col-md-offset-1 col-md-2 col-sm-12">
+									<div class="single-model-search">
+										<h2>select model</h2>
+										<div class="model-select-icon">
+											<select id="model" class="form-control" name="model">
+
+											  	<option value="default">model</option><!-- /.option-->
+
+											  	<option value="kia-rio">kia-rio</option><!-- /.option-->
+
+												<option value="Maruti Baleno">Baleno</option><!-- /.option-->
+
+												
+											</select><!-- /.select-->
+										</div><!-- /.model-select-icon -->
+									</div>
+									
+
+									<div class="single-model-search">
+										<h2>Engine Capacity</h2>
+										<!-- <div class="model-select-icon"> -->
+											
+											<!-- <label for="engine_capacity">Engine Capacity:</label>
+       									    <input type="text" id="engine_capacity" name="engine_capacity" required> -->
+
+											<input type="text" id="engine_capacity" name="engine_capacity" class="form-control" placeholder="Enter Capacity" />
+
+											
+										<!-- </div>/.model-select-icon  -->
+									</div>
+
+
+								    <div class="single-model-search">
+									    <h2>Mileage</h2>
+									    <!-- <div class="model-select-icon"> -->
+										
+
+										    <input id="mileage" type="text" name="mileage" class="form-control" placeholder="Enter mileage" />
+
+										
+									<!-- </div>/.model-select-icon  -->
+								    </div>
+
+
+									<div class="single-model-search">
+									    <h2>Kilometers Driven</h2>
+									    <!-- <div class="model-select-icon"> -->
+										
+
+										    <input type="text" id="kms_driven" name="kms_driven" class="form-control" placeholder="Enter kms" />
+
+										
+									<!-- </div>/.model-select-icon  -->
+								    </div>
+
+                                    <div class="single-model-search">
+									    <h2>Seats</h2>
+									    <!-- <div class="model-select-icon"> -->
+										
+
+										    <input type="text" id="seats" name="seats" class="form-control" placeholder="Enter seats" />
+
+										
+									<!-- </div>/.model-select-icon  -->
+								    </div>
+
+								</div>
+							
+
+								<div class="col-md-2 col-sm-12">
+									<div class="single-model-search text-center">
+										<button class="welcome-btn model-search-btn" id="searchButton">
+											Search
+										</button>
+									</div>
+								</div>
+
+
+							</div>
+						  </form>  
+							
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+								
+			
+
+		</section><!--/.welcome-hero-->
+		<!--welcome-hero end -->
+
+		
+        
+    </body>
+	
+</html>
