@@ -78,4 +78,4 @@ def predict():
             return render_template('result_new.html', predicted_price=predicted_price)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(port=5001, debug=True)

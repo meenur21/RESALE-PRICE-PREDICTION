@@ -66,7 +66,7 @@
 		<section id="home" class="welcome-hero">
 
 			<!-- top-area Start -->
-			<div class="top-area">
+			<div class="top-area" >
 				<div class="header-area">
 					<!-- Start Navigation -->
 				    <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
@@ -88,7 +88,7 @@
 				                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
 				                    <li class=" scroll active"><a href="#home">home</a></li>
 				                    <li class="scroll"><a href="#value">Get an Estimate</a></li>
-				                    <li class="scroll"><a href="#featured-cars">Predicted pics</a></li>
+				                    <li class="scroll"><a href="#featured-cars">Snapshots</a></li>
 				                    <li class="scroll"><a href="#new-cars">new cars</a></li>
 				                    <li class="scroll"><a href="#brand">brands</a></li>
 				                    <li class="scroll"><a href="#contact">Know More</a></li>
@@ -138,7 +138,7 @@
 							<div class="row">
 								<div class="col-md-offset-1 col-md-2 col-sm-12">
 									<div class="single-model-search">
-									    <h2>Age</h2>
+									    <h2>Car's age</h2>
 									    <!-- <div class="model-select-icon"> -->
 										
 
@@ -148,12 +148,111 @@
 									<!-- </div>/.model-select-icon  -->
 								    </div>
 									
+									
+
 									<div class="single-model-search">
-										<h2>select model</h2>
+									    <h2>Kilometers Driven</h2>
+									    <!-- <div class="model-select-icon"> -->
+										
+
+										    <input type="text" id="kms_driven" name="kms_driven" class="form-control" placeholder="Enter kms" />
+
+										
+									<!-- </div>/.model-select-icon  -->
+								    </div>
+									
+									<div class="single-model-search">
+									    <h2>No. of Seats</h2>
+									    <!-- <div class="model-select-icon"> -->
+										
+
+										    <input type="text" id="seats" name="seats" class="form-control" placeholder="Enter seats" />
+
+										
+									<!-- </div>/.model-select-icon  -->
+								    </div>
+
+									<div class="single-model-search">
+									    <h2>Mileage</h2>
+									    <!-- <div class="model-select-icon"> -->
+										
+
+										    <input id="mileage" type="text" name="mileage" class="form-control" placeholder="Enter mileage" />
+
+										
+									<!-- </div>/.model-select-icon  -->
+								    </div>
+
+									<div class="single-model-search">
+										<h2>Engine CC</h2>
+										<!-- <div class="model-select-icon"> -->
+											
+											<!-- <label for="engine_capacity">Engine Capacity:</label>
+       									    <input type="text" id="engine_capacity" name="engine_capacity" required> -->
+
+											<input type="text" id="engine_capacity" name="engine_capacity" class="form-control" placeholder="Enter Capacity" />
+
+											
+										<!-- </div>/.model-select-icon  -->
+									</div>
+
+
+
+									</div>
+								<div class="col-md-offset-1 col-md-2 col-sm-12">
+									
+									<div class="single-model-search">
+										<h2>Brand</h2>
+										<div class="model-select-icon">
+											<select id="car_company" class="form-control" name="car_company">
+
+											  	<option value="default">-select-</option><!-- /.option-->
+
+												<option value="Toyota">Toyota</option><!-- /.option-->
+												<option value="Maruti">Maruti</option><!-- /.option-->
+												<option value="Tata">Tata</option><!-- /.option-->
+												<option value="Hyundai">Hyundai</option><!-- /.option-->
+												<option value="Honda">Honda</option><!-- /.option-->
+												<option value="Kia">Kia</option><!-- /.option-->
+												<option value="Ford">Ford</option><!-- /.option-->
+												<option value="Mitsubishi">Mitsubishi</option><!-- /.option-->
+												<option value="Mahindra">Mahindra</option><!-- /.option-->
+												<option value="Audi">Audi</option><!-- /.option-->
+												<option value="Volkswagen">Volkswagen</option><!-- /.option-->
+												<option value="Skoda">Skoda</option><!-- /.option-->
+												<option value="MG">MG</option><!-- /.option-->
+												<option value="Renault">Renault</option><!-- /.option-->
+												<option value="Nissan">Nissan</option><!-- /.option-->
+												<option value="Chevrolet">Chevrolet</option><!-- /.option-->
+												<option value="Datson">Datson</option><!-- /.option-->
+												<option value="Jeep">Jeep</option><!-- /.option-->
+												<option value="BMW">BMW</option><!-- /.option-->
+												<option value="Mercedes-Benz">Mercedes-Benz</option><!-- /.option-->
+												<option value="Fiat">Fiat</option><!-- /.option-->
+												<option value="Land">Land</option><!-- /.option-->
+												<option value="Jaguar">Jaguar</option><!-- /.option-->
+												<option value="Volvo">Volvo</option><!-- /.option-->
+												<option value="Isuzu">Isuzu</option><!-- /.option-->
+												<option value="Mini">Mini</option><!-- /.option-->
+												<option value="Citroen">Citroen</option><!-- /.option-->
+												<option value="Porsche">Porsche</option><!-- /.option-->
+												<option value="Lexus">Lexus</option><!-- /.option-->
+												<option value="Force">Force</option><!-- /.option-->
+												<option value="OpelCorsa">Opel</option><!-- /.option-->
+												<option value="Daewoo">Daewooo</option><!-- /.option-->
+												<option value="Bentley">Bentley</option><!-- /.option-->
+
+											</select><!-- /.select-->
+										</div><!-- /.model-select-icon -->
+									</div>
+
+
+									<div class="single-model-search">
+										<h2>Model</h2>
 										 <div class="model-select-icon"> 
 											<select id="model" class="form-control" name="model">
 
-											  	<option value="default">model</option><!-- /.option-->
+											  	<option value="default">-select-</option><!-- /.option-->
 
 											  	<option value="kia-rio">kia-rio</option><!-- /.option-->
 
@@ -246,102 +345,18 @@
 											</select><!-- /.select-->
 										</div>
 									</div>
-
-									<div class="single-model-search">
-									    <h2>Kilometers Driven</h2>
-									    <!-- <div class="model-select-icon"> -->
-										
-
-										    <input type="text" id="kms_driven" name="kms_driven" class="form-control" placeholder="Enter kms" />
-
-										
-									<!-- </div>/.model-select-icon  -->
-								    </div>
 									
-									<div class="single-model-search">
-									    <h2>Mileage</h2>
-									    <!-- <div class="model-select-icon"> -->
-										
-
-										    <input id="mileage" type="text" name="mileage" class="form-control" placeholder="Enter mileage" />
-
-										
-									<!-- </div>/.model-select-icon  -->
-								    </div>
-
-									<div class="single-model-search">
-										<h2>Engine Capacity</h2>
-										<!-- <div class="model-select-icon"> -->
-											
-											<!-- <label for="engine_capacity">Engine Capacity:</label>
-       									    <input type="text" id="engine_capacity" name="engine_capacity" required> -->
-
-											<input type="text" id="engine_capacity" name="engine_capacity" class="form-control" placeholder="Enter Capacity" />
-
-											
-										<!-- </div>/.model-select-icon  -->
-									</div>
-
-
-
-									</div>
-								<div class="col-md-offset-1 col-md-2 col-sm-12">
-									
-									<div class="single-model-search">
-										<h2>select make</h2>
-										<div class="model-select-icon">
-											<select id="car_company" class="form-control" name="car_company">
-
-											  	<option value="default">make</option><!-- /.option-->
-
-												<option value="Toyota">Toyota</option><!-- /.option-->
-												<option value="Maruti">Maruti</option><!-- /.option-->
-												<option value="Tata">Tata</option><!-- /.option-->
-												<option value="Hyundai">Hyundai</option><!-- /.option-->
-												<option value="Honda">Honda</option><!-- /.option-->
-												<option value="Kia">Kia</option><!-- /.option-->
-												<option value="Ford">Ford</option><!-- /.option-->
-												<option value="Mitsubishi">Mitsubishi</option><!-- /.option-->
-												<option value="Mahindra">Mahindra</option><!-- /.option-->
-												<option value="Audi">Audi</option><!-- /.option-->
-												<option value="Volkswagen">Volkswagen</option><!-- /.option-->
-												<option value="Skoda">Skoda</option><!-- /.option-->
-												<option value="MG">MG</option><!-- /.option-->
-												<option value="Renault">Renault</option><!-- /.option-->
-												<option value="Nissan">Nissan</option><!-- /.option-->
-												<option value="Chevrolet">Chevrolet</option><!-- /.option-->
-												<option value="Datson">Datson</option><!-- /.option-->
-												<option value="Jeep">Jeep</option><!-- /.option-->
-												<option value="BMW">BMW</option><!-- /.option-->
-												<option value="Mercedes-Benz">Mercedes-Benz</option><!-- /.option-->
-												<option value="Fiat">Fiat</option><!-- /.option-->
-												<option value="Land">Land</option><!-- /.option-->
-												<option value="Jaguar">Jaguar</option><!-- /.option-->
-												<option value="Volvo">Volvo</option><!-- /.option-->
-												<option value="Isuzu">Isuzu</option><!-- /.option-->
-												<option value="Mini">Mini</option><!-- /.option-->
-												<option value="Citroen">Citroen</option><!-- /.option-->
-												<option value="Porsche">Porsche</option><!-- /.option-->
-												<option value="Lexus">Lexus</option><!-- /.option-->
-												<option value="Force">Force</option><!-- /.option-->
-												<option value="OpelCorsa">Opel</option><!-- /.option-->
-												<option value="Daewoo">Daewooo</option><!-- /.option-->
-												<option value="Bentley">Bentley</option><!-- /.option-->
-
-											</select><!-- /.select-->
-										</div><!-- /.model-select-icon -->
-
-										<div class="single-model-search">
-											<h2>body style</h2>
+								    <div class="single-model-search">
+											<h2>Body Type</h2>
 											<div class="model-select-icon">
 												<select id="body_type" class="form-control" name="body_type">
-	
+													  <option value="default">-select-</option><!-- /.option-->
 													  <option value="MUV">MUV</option><!-- /.option-->
 	
-													  <option value="sedan">Sedan</option><!-- /.option-->
+													  <option value="Sedan">Sedan</option><!-- /.option-->
 	
 													  <option value="SUV">SUV</option><!-- /.option-->
-													  <option value="roadster">Hatchback</option><!-- /.option-->
+													  <option value="Hatchback">Hatchback</option><!-- /.option-->
 													<option value="Minivans">Minivan</option><!-- /.option-->
 													  <option value="Coupe">Coupe</option><!-- /.option-->
 													<option value="Wagon">Wagon</option><!-- /.option-->
@@ -350,9 +365,12 @@
 												</select><!-- /.select-->
 											</div><!-- /.model-select-icon -->
 										</div>
-									</div>
 									
-										<div class="single-model-search">
+									
+									
+
+
+									<div class="single-model-search">
 											<h2>Insurance</h2>
 											<div class="model-select-icon">
 												<select id="insurance" class="form-control" name="insurance">
@@ -366,19 +384,21 @@
 	
 												</select><!-- /.select-->
 											</div><!-- /.model-select-icon -->
-										</div>
-											<div class="single-model-search">
-												<h2>Transmission Type</h2>
+									</div>
+
+									<div class="single-model-search">
+												<h2>Transmission </h2>
 												<div class="model-select-icon">
 													<select id="transmission_type" class="form-control" name="transmission_type">
-		
+														  
+														  <option value="Manual">Manual</option><!-- /.option-->
 														  <option value="Automatic">Automatic</option><!-- /.option-->
 		
-														  <option value="Manual">Manual</option><!-- /.option-->
+														  
 		
 													</select><!-- /.select-->
 												</div><!-- /.model-select-icon -->
-											</div>
+									</div>
 												
 								</div>
 								<div class="col-md-offset-1 col-md-2 col-sm-12">
@@ -401,21 +421,28 @@
 									</div>
 
 									<div class="single-model-search">
-									    <h2>Seats</h2>
-									    <!-- <div class="model-select-icon"> -->
-										
+										<h2>Ownership</h2>
+										<div class="model-select-icon">
+											<select id="owner_type" class="form-control" name="owner_type">
 
-										    <input type="text" id="seats" name="seats" class="form-control" placeholder="Enter seats" />
+											  	<option value="1">First</option><!-- /.option-->
 
-										
-									<!-- </div>/.model-select-icon  -->
-								    </div>
+											  	<option value="2">Second</option><!-- /.option-->
+
+											  	<option value="3">Third</option><!-- /.option-->
+											  	<option value="4">Fourth</option><!-- /.option-->
+
+											</select><!-- /.select-->
+										</div><!-- /.model-select-icon -->
+									</div>
+									
 
 									<div class="single-model-search">
 										<h2>City</h2>
 										<div class="model-select-icon">
 											<select id="city" class="form-control" name="city">
 
+												<option value="default">-select-</option><!-- /.option-->
 												<option value="Agra">Agra</option><!-- /.option-->
 												<option value="Gurgaon">Gurgaon</option><!-- /.option-->
 												<option value="Lucknow">Lucknow</option><!-- /.option-->
@@ -436,21 +463,7 @@
 									</div>
 
 									
-									<div class="single-model-search">
-										<h2>Owner Type</h2>
-										<div class="model-select-icon">
-											<select id="owner_type" class="form-control" name="owner_type">
-
-											  	<option value="1">First</option><!-- /.option-->
-
-											  	<option value="2">Second</option><!-- /.option-->
-
-											  	<option value="3">Third</option><!-- /.option-->
-											  	<option value="4">Fourth</option><!-- /.option-->
-
-											</select><!-- /.select-->
-										</div><!-- /.model-select-icon -->
-									</div>
+									
 
 								    
 

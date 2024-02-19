@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
 
     <head>
-
+        
        
 
         <!-- meta data -->
@@ -57,6 +57,37 @@
 			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
+            <style>
+                            .containerr {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 100vh;
+                    }
+
+                    .congratulations-box {
+                        /* background-color: #f2ebeb; */
+                        background-color: rgba(255, 255, 255, 0.9);
+
+                        padding: 20px;
+                        border-radius: 10px;
+                        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+                        text-align: center;
+                        animation: fadeIn 20s ease-out;
+                    }
+
+                    @keyframes fadeIn {
+                        from {
+                            opacity: 100;
+                            transform: translateY(10px);
+                        }
+                        to {
+                            opacity: 20;
+                            transform: translateY(20);
+                        }
+                    }
+
+        </style>
 
     </head>
 	
@@ -89,9 +120,9 @@
                                 <!-- Collect the nav links, forms, and other content for toggling -->
                                 <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
                                     <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-                                        <li class=" scroll active"><a href="#home">home</a></li>
+                                        <li class=" scroll active"><a href="javascript:history.back()">home</a></li>
                                         <li class="scroll"><a href="javascript:history.back()">Get an Estimate</a></li>
-                                        <li class="scroll"><a href="#featured-cars">Predicted pics</a></li>
+                                        <li class="scroll"><a href="#featured-cars">Snapshots</a></li>
                                         <li class="scroll"><a href="#new-cars">new cars</a></li>
                                         <li class="scroll"><a href="#brand">brands</a></li>
                                         <li class="scroll"><a href="#contact">Know More</a></li>
@@ -101,23 +132,60 @@
                         </nav><!--/nav-->
                         <!-- End Navigation -->
                     </div><!--/.header-area-->
+
+
+                    <!-- <button class="welcome-btn" onclick="showPopup()">Let's go</button>
+
+                    <div class="popup" id="popup">
+                    <div class="popup-content">
+                        <h1>Congratulations!</h1>
+                        <p>Your Predicted Resale Price:</p>
+                        <p id="predictedPrice">₹{{ predicted_price }}</p>
+                        <span>&#x1F389;</span>
+                        <button class="close-btn" onclick="closePopup()">Close</button>
+                    </div>
+                    </div>
+    
+                    <script>
+                        function showPopup() {
+                            var popup = document.getElementById("popup");
+                            popup.style.display = "block";
+                        }
+                        
+                        function closePopup() {
+                            var popup = document.getElementById("popup");
+                            popup.style.display = "none";
+                        }
+                      
+                    </script> -->
+
                     <div class="clearfix"></div>
 
                 </div><!-- /.top-area-->
                 <!-- top-area End -->
 
-                <!-- <div class="container">
-                    <div class="welcome-hero-txt">
-                        <div class="container">
-                            <h1>Congratulations!</h1>
-                            <p>Your Predicted Resale Price:</p>
+                
+                <div class="containerr">
+                    <div class="congratulations-box">
+                        <!-- <div class="containerr"> -->
+                            <h1>Excellent!</h1>
+                            <p>Your car's value stands at :</p>
                             <p>₹{{ predicted_price }}</p>
-                            <span>&#x1F389;</span>
-                        </div>
+                            <span>&#x1F389;&#x1F389;&#x1F389;</span>
+                        <!-- </div> -->
+                    </div>
+                </div>
+                <!-- <div class="container">
+                    <div class="congratulations-box">
+                        <h1>Congratulations!</h1>
+                        <p>Your Predicted Resale Price:</p>
+                        <p>₹{{ predicted_price }}</p>
+                        <span>&#x1F389;</span>
                     </div>
                 </div> -->
+                
 
-
+               
                 
             </section>
 
